@@ -128,7 +128,7 @@ exit                 # Sai da VM ansible (se estiver dentro)
 vagrant halt         # Para todas as VMs
 vagrant destroy      # Remove todas as VMs
 
-
+```
 #Observações
 ##Sempre cheque o status das VMs com vagrant status.
 
