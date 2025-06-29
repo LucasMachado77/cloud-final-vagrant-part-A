@@ -7,13 +7,9 @@
 - Ansible (na VM de controle)
 - (Opcional) Git para clonar o projeto
 
----
-
 ## Passo a Passo – Suba Todo o Ambiente
-
-### 1. Clone o repositório do projeto 
-
 ```bash
+1. Clone o repositório do projeto 
 git clone https://github.com/LucasMachado77/cloud-final-vagrant.git
 cd cloud-final-vagrant
 2. Suba as VMs com Vagrant
@@ -129,11 +125,11 @@ vagrant halt         # Para todas as VMs
 vagrant destroy      # Remove todas as VMs
 
 ```
-#Observações
-##Sempre cheque o status das VMs com vagrant status.
+# Observações
+## Sempre cheque o status das VMs com vagrant status.
 
-##Se ocorrer erro, confira logs e ajuste o passo correspondente.
+## Se ocorrer erro, confira logs e ajuste o passo correspondente.
 
-##Atualize os IPs conforme sua configuração real.
+## Atualize os IPs conforme sua configuração real.
 
-##Siga a ordem dos playbooks para evitar conflitos e garantir o deploy automático.
+## Siga a ordem dos playbooks para evitar conflitos e garantir o deploy automático.
