@@ -11,10 +11,10 @@
 ```bash
 1. Clone o repositório do projeto 
 git clone https://github.com/LucasMachado77/cloud-final-vagrant.git
-cd cloud-final-vagrant
+
 2. Suba as VMs com Vagrant
 vagrant up
-Aguarde até todas as VMs subirem (ansible, lb01, lb02, web1, web2, db, db_replica, prometheus, grafana, etc).
+Aguarde até todas as VMs subirem (ansible, lb01, lb02, web1, web2, db, db_replica, prometheus, grafana, consul).
 
 3. Acesse a VM de controle (ansible)
 vagrant ssh ansible
