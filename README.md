@@ -10,7 +10,7 @@
 ## Passo a Passo – Suba Todo o Ambiente
 ```bash
 1. Clone o repositório do projeto 
-git clone https://github.com/LucasMachado77/cloud-final-vagrant.git
+git clone https://github.com/LucasMachado77/cloud-final-vagrant-part-A.git
 
 2. Suba as VMs com Vagrant
 vagrant up
